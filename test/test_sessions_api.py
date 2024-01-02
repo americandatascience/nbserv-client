@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.sessions_api import SessionsApi
+from nbserv_client.api.sessions_api import SessionsApi
 
 
 class TestSessionsApi(unittest.TestCase):

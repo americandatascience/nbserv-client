@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.session import Session
+from nbserv_client.models.session import Session
 
 class TestSession(unittest.TestCase):
     """Session unit test stubs"""
@@ -40,7 +40,7 @@ class TestSession(unittest.TestCase):
                 path = '',
                 name = '',
                 type = '',
-                kernel = openapi_client.models.kernel.Kernel(
+                kernel = nbserv_client.models.kernel.Kernel(
                     id = '', 
                     name = '', 
                     last_activity = '', 

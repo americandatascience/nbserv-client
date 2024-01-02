@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_get200_response import ApiGet200Response
+from nbserv_client.models.api_get200_response import ApiGet200Response
 
 class TestApiGet200Response(unittest.TestCase):
     """ApiGet200Response unit test stubs"""

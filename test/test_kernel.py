@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.kernel import Kernel
+from nbserv_client.models.kernel import Kernel
 
 class TestKernel(unittest.TestCase):
     """Kernel unit test stubs"""

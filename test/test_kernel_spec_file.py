@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.kernel_spec_file import KernelSpecFile
+from nbserv_client.models.kernel_spec_file import KernelSpecFile
 
 class TestKernelSpecFile(unittest.TestCase):
     """KernelSpecFile unit test stubs"""
@@ -46,7 +46,7 @@ class TestKernelSpecFile(unittest.TestCase):
                     'key' : ''
                     },
                 help_links = [
-                    openapi_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
+                    nbserv_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
                         text = '', 
                         url = '', )
                     ]

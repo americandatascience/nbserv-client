@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.terminal import Terminal
+from nbserv_client.models.terminal import Terminal
 
 class TestTerminal(unittest.TestCase):
     """Terminal unit test stubs"""

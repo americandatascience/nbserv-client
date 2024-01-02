@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_status import APIStatus
+from nbserv_client.models.api_status import APIStatus
 
 class TestAPIStatus(unittest.TestCase):
     """APIStatus unit test stubs"""

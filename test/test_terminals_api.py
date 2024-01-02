@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.terminals_api import TerminalsApi
+from nbserv_client.api.terminals_api import TerminalsApi
 
 
 class TestTerminalsApi(unittest.TestCase):

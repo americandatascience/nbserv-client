@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_kernels_post_request import ApiKernelsPostRequest
+from nbserv_client.models.api_kernels_post_request import ApiKernelsPostRequest
 
 class TestApiKernelsPostRequest(unittest.TestCase):
     """ApiKernelsPostRequest unit test stubs"""

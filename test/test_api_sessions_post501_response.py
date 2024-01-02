@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_sessions_post501_response import ApiSessionsPost501Response
+from nbserv_client.models.api_sessions_post501_response import ApiSessionsPost501Response
 
 class TestApiSessionsPost501Response(unittest.TestCase):
     """ApiSessionsPost501Response unit test stubs"""

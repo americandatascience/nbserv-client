@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.contents_api import ContentsApi
+from nbserv_client.api.contents_api import ContentsApi
 
 
 class TestContentsApi(unittest.TestCase):

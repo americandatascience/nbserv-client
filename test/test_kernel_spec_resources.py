@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.kernel_spec_resources import KernelSpecResources
+from nbserv_client.models.kernel_spec_resources import KernelSpecResources
 
 class TestKernelSpecResources(unittest.TestCase):
     """KernelSpecResources unit test stubs"""

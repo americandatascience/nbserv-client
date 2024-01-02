@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_kernelspecs_get200_response import ApiKernelspecsGet200Response
+from nbserv_client.models.api_kernelspecs_get200_response import ApiKernelspecsGet200Response
 
 class TestApiKernelspecsGet200Response(unittest.TestCase):
     """ApiKernelspecsGet200Response unit test stubs"""
@@ -38,9 +38,9 @@ class TestApiKernelspecsGet200Response(unittest.TestCase):
             return ApiKernelspecsGet200Response(
                 default = '',
                 kernelspecs = {
-                    'key' : openapi_client.models.kernel_spec.KernelSpec(
+                    'key' : nbserv_client.models.kernel_spec.KernelSpec(
                         name = '', 
-                        kernel_spec_file = openapi_client.models.kernel_spec_file.KernelSpecFile(
+                        kernel_spec_file = nbserv_client.models.kernel_spec_file.KernelSpecFile(
                             language = '', 
                             argv = [
                                 ''
@@ -51,11 +51,11 @@ class TestApiKernelspecsGet200Response(unittest.TestCase):
                                 'key' : ''
                                 }, 
                             help_links = [
-                                openapi_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
+                                nbserv_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
                                     text = '', 
                                     url = '', )
                                 ], ), 
-                        resources = openapi_client.models.kernel_spec_resources.KernelSpec_resources(
+                        resources = nbserv_client.models.kernel_spec_resources.KernelSpec_resources(
                             kernel/js = '', 
                             kernel/css = '', 
                             logo_* = '', ), )

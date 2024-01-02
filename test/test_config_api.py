@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.config_api import ConfigApi
+from nbserv_client.api.config_api import ConfigApi
 
 
 class TestConfigApi(unittest.TestCase):

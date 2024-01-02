@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.api_spec_api import ApiSpecApi
+from nbserv_client.api.api_spec_api import ApiSpecApi
 
 
 class TestApiSpecApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.contents import Contents
+from nbserv_client.models.contents import Contents
 
 class TestContents(unittest.TestCase):
     """Contents unit test stubs"""

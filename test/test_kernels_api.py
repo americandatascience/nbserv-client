@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.kernels_api import KernelsApi
+from nbserv_client.api.kernels_api import KernelsApi
 
 
 class TestKernelsApi(unittest.TestCase):

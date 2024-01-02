@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.kernel_spec import KernelSpec
+from nbserv_client.models.kernel_spec import KernelSpec
 
 class TestKernelSpec(unittest.TestCase):
     """KernelSpec unit test stubs"""
@@ -37,7 +37,7 @@ class TestKernelSpec(unittest.TestCase):
         if include_optional:
             return KernelSpec(
                 name = '',
-                kernel_spec_file = openapi_client.models.kernel_spec_file.KernelSpecFile(
+                kernel_spec_file = nbserv_client.models.kernel_spec_file.KernelSpecFile(
                     language = '', 
                     argv = [
                         ''
@@ -48,11 +48,11 @@ class TestKernelSpec(unittest.TestCase):
                         'key' : ''
                         }, 
                     help_links = [
-                        openapi_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
+                        nbserv_client.models.kernel_spec_file_help_links_inner.KernelSpecFile_help_links_inner(
                             text = '', 
                             url = '', )
                         ], ),
-                resources = openapi_client.models.kernel_spec_resources.KernelSpec_resources(
+                resources = nbserv_client.models.kernel_spec_resources.KernelSpec_resources(
                     kernel/js = '', 
                     kernel/css = '', 
                     logo_* = '', )

@@ -14,7 +14,7 @@
 
 import unittest
 
-from openapi_client.api.identity_api import IdentityApi
+from nbserv_client.api.identity_api import IdentityApi
 
 
 class TestIdentityApi(unittest.TestCase):

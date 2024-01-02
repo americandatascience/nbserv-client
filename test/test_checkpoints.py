@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.checkpoints import Checkpoints
+from nbserv_client.models.checkpoints import Checkpoints
 
 class TestCheckpoints(unittest.TestCase):
     """Checkpoints unit test stubs"""

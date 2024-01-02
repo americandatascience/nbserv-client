@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_me_get200_response import ApiMeGet200Response
+from nbserv_client.models.api_me_get200_response import ApiMeGet200Response
 
 class TestApiMeGet200Response(unittest.TestCase):
     """ApiMeGet200Response unit test stubs"""
@@ -36,7 +36,7 @@ class TestApiMeGet200Response(unittest.TestCase):
         model = ApiMeGet200Response()
         if include_optional:
             return ApiMeGet200Response(
-                identity = openapi_client.models.identity.Identity(
+                identity = nbserv_client.models.identity.Identity(
                     username = '', 
                     name = '', 
                     display_name = '', 

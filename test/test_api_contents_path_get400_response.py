@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_contents_path_get400_response import ApiContentsPathGet400Response
+from nbserv_client.models.api_contents_path_get400_response import ApiContentsPathGet400Response
 
 class TestApiContentsPathGet400Response(unittest.TestCase):
     """ApiContentsPathGet400Response unit test stubs"""

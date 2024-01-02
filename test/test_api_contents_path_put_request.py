@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
+from nbserv_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
 
 class TestApiContentsPathPutRequest(unittest.TestCase):
     """ApiContentsPathPutRequest unit test stubs"""

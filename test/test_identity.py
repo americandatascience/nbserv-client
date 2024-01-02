@@ -15,7 +15,7 @@
 import unittest
 import datetime
 
-from openapi_client.models.identity import Identity
+from nbserv_client.models.identity import Identity
 
 class TestIdentity(unittest.TestCase):
     """Identity unit test stubs"""
