@@ -29,7 +29,7 @@ jobs:
       run: poetry env use python3.9
     - name: Config poetry
       env:
-        PYPI_JH_CLIENT_TOKEN: ${{ secrets.PYPI_JH_CLIENT_TOKEN}}
-      run: poetry config pypi-token.pypi "$PYPI_JH_CLIENT_TOKEN"
+        PYPI_NBSERV_CLIENT_TOKEN: ${{ secrets.PYPI_NBSERV_CLIENT_TOKEN}}
+      run: poetry config pypi-token.pypi "$PYPI_NBSERV_CLIENT_TOKEN"
     - name: Publish package
       run: poetry publish --build

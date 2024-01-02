@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nbserv-client"
+name = "nbserv_client"
 version = "1.2.0"
 description = "Jupyter Server API"
 authors = ["Andrew Chang"]
