@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_kernels_post_request import ApiKernelsPostRequest
+from nbserv_client.models.api_kernels_post_request import ApiKernelsPostRequest
 
 # TODO update the JSON string below
 json = "{}"

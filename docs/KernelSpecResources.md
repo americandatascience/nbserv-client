@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.kernel_spec_resources import KernelSpecResources
+from nbserv_client.models.kernel_spec_resources import KernelSpecResources
 
 # TODO update the JSON string below
 json = "{}"

@@ -26,9 +26,9 @@ except ImportError:
 from typing import Union
 
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class ApiSpecApi:

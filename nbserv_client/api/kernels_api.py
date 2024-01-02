@@ -29,12 +29,12 @@ from pydantic import StrictStr
 
 from typing import List, Optional
 
-from openapi_client.models.api_kernels_post_request import ApiKernelsPostRequest
-from openapi_client.models.kernel import Kernel
+from nbserv_client.models.api_kernels_post_request import ApiKernelsPostRequest
+from nbserv_client.models.kernel import Kernel
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class KernelsApi:

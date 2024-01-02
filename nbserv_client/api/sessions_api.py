@@ -29,11 +29,11 @@ from pydantic import StrictStr
 
 from typing import List, Optional
 
-from openapi_client.models.session import Session
+from nbserv_client.models.session import Session
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class SessionsApi:

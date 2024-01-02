@@ -1,4 +1,4 @@
-# openapi_client.ApiSpecApi
+# nbserv_client.ApiSpecApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,21 +18,21 @@ Get the current spec for the notebook server's APIs.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ApiSpecApi(api_client)
+    api_instance = nbserv_client.ApiSpecApi(api_client)
 
     try:
         # Get the current spec for the notebook server's APIs.

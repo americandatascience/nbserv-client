@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_status import APIStatus
+from nbserv_client.models.api_status import APIStatus
 
 # TODO update the JSON string below
 json = "{}"

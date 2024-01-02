@@ -29,11 +29,11 @@ from pydantic import StrictStr
 
 from typing import List
 
-from openapi_client.models.terminal import Terminal
+from nbserv_client.models.terminal import Terminal
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class TerminalsApi:

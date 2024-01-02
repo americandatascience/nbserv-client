@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
+from nbserv_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
 
 # TODO update the JSON string below
 json = "{}"

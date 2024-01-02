@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.session import Session
+from nbserv_client.models.session import Session
 
 # TODO update the JSON string below
 json = "{}"

@@ -21,7 +21,7 @@ import json
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel, StrictStr
 from pydantic import Field
-from openapi_client.models.identity import Identity
+from nbserv_client.models.identity import Identity
 try:
     from typing import Self
 except ImportError:

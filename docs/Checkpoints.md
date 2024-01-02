@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.checkpoints import Checkpoints
+from nbserv_client.models.checkpoints import Checkpoints
 
 # TODO update the JSON string below
 json = "{}"

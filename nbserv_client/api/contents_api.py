@@ -29,14 +29,14 @@ from pydantic import StrictInt, StrictStr, field_validator
 
 from typing import List, Optional
 
-from openapi_client.models.api_contents_path_post_request import ApiContentsPathPostRequest
-from openapi_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
-from openapi_client.models.checkpoints import Checkpoints
-from openapi_client.models.contents import Contents
+from nbserv_client.models.api_contents_path_post_request import ApiContentsPathPostRequest
+from nbserv_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
+from nbserv_client.models.checkpoints import Checkpoints
+from nbserv_client.models.contents import Contents
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class ContentsApi:

@@ -1,4 +1,4 @@
-# openapi_client.SessionsApi
+# nbserv_client.SessionsApi
 
 All URIs are relative to *http://localhost*
 
@@ -22,22 +22,22 @@ List available sessions
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.session import Session
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.session import Session
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SessionsApi(api_client)
+    api_instance = nbserv_client.SessionsApi(api_client)
 
     try:
         # List available sessions
@@ -86,23 +86,23 @@ Create a new session, or return an existing session if a session of the same nam
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.session import Session
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.session import Session
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SessionsApi(api_client)
-    session = openapi_client.Session() # Session |  (optional)
+    api_instance = nbserv_client.SessionsApi(api_client)
+    session = nbserv_client.Session() # Session |  (optional)
 
     try:
         # Create a new session, or return an existing session if a session of the same name already exists
@@ -155,21 +155,21 @@ Delete a session
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SessionsApi(api_client)
+    api_instance = nbserv_client.SessionsApi(api_client)
     session = 'session_example' # str | session uuid
 
     try:
@@ -221,22 +221,22 @@ Get session
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.session import Session
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.session import Session
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SessionsApi(api_client)
+    api_instance = nbserv_client.SessionsApi(api_client)
     session = 'session_example' # str | session uuid
 
     try:
@@ -289,24 +289,24 @@ This can be used to rename the session.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.session import Session
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.session import Session
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SessionsApi(api_client)
+    api_instance = nbserv_client.SessionsApi(api_client)
     session = 'session_example' # str | session uuid
-    model = openapi_client.Session() # Session | 
+    model = nbserv_client.Session() # Session | 
 
     try:
         # This can be used to rename the session.

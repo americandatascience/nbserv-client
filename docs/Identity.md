@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.identity import Identity
+from nbserv_client.models.identity import Identity
 
 # TODO update the JSON string below
 json = "{}"

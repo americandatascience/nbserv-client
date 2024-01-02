@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.terminal import Terminal
+from nbserv_client.models.terminal import Terminal
 
 # TODO update the JSON string below
 json = "{}"

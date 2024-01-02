@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_sessions_post501_response import ApiSessionsPost501Response
+from nbserv_client.models.api_sessions_post501_response import ApiSessionsPost501Response
 
 # TODO update the JSON string below
 json = "{}"

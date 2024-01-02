@@ -1,4 +1,4 @@
-# openapi_client.ContentsApi
+# nbserv_client.ContentsApi
 
 All URIs are relative to *http://localhost*
 
@@ -26,21 +26,21 @@ Delete a checkpoint
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
     checkpoint_id = 'checkpoint_id_example' # str | Checkpoint id for a file
 
@@ -93,21 +93,21 @@ Restore a file to a particular checkpointed state
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
     checkpoint_id = 'checkpoint_id_example' # str | Checkpoint id for a file
 
@@ -163,22 +163,22 @@ List checkpoints for a given file. There will typically be zero or one results.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.checkpoints import Checkpoints
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.checkpoints import Checkpoints
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
 
     try:
@@ -236,22 +236,22 @@ Create a new checkpoint with the current state of a file. With the default FileC
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.checkpoints import Checkpoints
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.checkpoints import Checkpoints
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
 
     try:
@@ -306,21 +306,21 @@ Delete a file in the given path
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
 
     try:
@@ -373,22 +373,22 @@ A client can optionally specify a type and/or format argument via URL parameter.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.contents import Contents
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.contents import Contents
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
     type = 'type_example' # str | File type ('file', 'directory') (optional)
     format = 'format_example' # str | How file content should be returned ('text', 'base64') (optional)
@@ -452,22 +452,22 @@ Rename a file or directory without re-uploading content
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.contents import Contents
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.contents import Contents
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
 
     try:
@@ -523,25 +523,25 @@ A POST to /api/contents/path creates a New untitled, empty file or directory. A 
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_contents_path_post_request import ApiContentsPathPostRequest
-from openapi_client.models.contents import Contents
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.api_contents_path_post_request import ApiContentsPathPostRequest
+from nbserv_client.models.contents import Contents
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
-    model = openapi_client.ApiContentsPathPostRequest() # ApiContentsPathPostRequest | Path of file to copy (optional)
+    model = nbserv_client.ApiContentsPathPostRequest() # ApiContentsPathPostRequest | Path of file to copy (optional)
 
     try:
         # Create a new file in the specified path
@@ -598,25 +598,25 @@ Saves the file in the location specified by name and path.  PUT is very similar 
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
-from openapi_client.models.contents import Contents
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.api_contents_path_put_request import ApiContentsPathPutRequest
+from nbserv_client.models.contents import Contents
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ContentsApi(api_client)
+    api_instance = nbserv_client.ContentsApi(api_client)
     path = 'path_example' # str | file path
-    model = openapi_client.ApiContentsPathPutRequest() # ApiContentsPathPutRequest | New path for file or directory (optional)
+    model = nbserv_client.ApiContentsPathPutRequest() # ApiContentsPathPutRequest | New path for file or directory (optional)
 
     try:
         # Save or upload file.

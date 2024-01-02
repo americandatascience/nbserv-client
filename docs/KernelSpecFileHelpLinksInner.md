@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.kernel_spec_file_help_links_inner import KernelSpecFileHelpLinksInner
+from nbserv_client.models.kernel_spec_file_help_links_inner import KernelSpecFileHelpLinksInner
 
 # TODO update the JSON string below
 json = "{}"

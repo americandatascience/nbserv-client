@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.contents import Contents
+from nbserv_client.models.contents import Contents
 
 # TODO update the JSON string below
 json = "{}"

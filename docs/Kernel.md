@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.kernel import Kernel
+from nbserv_client.models.kernel import Kernel
 
 # TODO update the JSON string below
 json = "{}"

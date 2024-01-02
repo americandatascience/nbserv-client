@@ -23,11 +23,11 @@ try:
 except ImportError:
     from typing_extensions import Annotated
 
-from openapi_client.models.api_get200_response import ApiGet200Response
+from nbserv_client.models.api_get200_response import ApiGet200Response
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from nbserv_client.api_client import ApiClient
+from nbserv_client.api_response import ApiResponse
+from nbserv_client.rest import RESTResponseType
 
 
 class DefaultApi:

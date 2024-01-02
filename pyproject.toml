@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "openapi_client"
-version = "1.0.0"
+name = "nbserv_client"
+version = "1.2.0"
 description = "Jupyter Server API"
-authors = ["Jupyter Project <team@openapitools.org>"]
-license = "NoLicense"
+authors = ["Andrew Chang"]
+license = "BSD-3-Clause"
 readme = "README.md"
-repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+repository = "https://github.com/americandatascience/nbserv-client"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Jupyter Server API"]
-include = ["openapi_client/py.typed"]
+include = ["nbserv_client/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.7"

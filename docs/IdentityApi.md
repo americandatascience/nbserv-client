@@ -1,4 +1,4 @@
-# openapi_client.IdentityApi
+# nbserv_client.IdentityApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,22 +18,22 @@ Get the identity of the currently authenticated user. If present, a `permissions
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_me_get200_response import ApiMeGet200Response
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.models.api_me_get200_response import ApiMeGet200Response
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.IdentityApi(api_client)
+    api_instance = nbserv_client.IdentityApi(api_client)
     permissions = 'permissions_example' # str | JSON-serialized dictionary of `{\"resource\": [\"action\",]}` (dict of lists of strings) to check. The same dictionary structure will be returned, containing only the actions for which the user is authorized.  (optional)
 
     try:

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_kernelspecs_get200_response import ApiKernelspecsGet200Response
+from nbserv_client.models.api_kernelspecs_get200_response import ApiKernelspecsGet200Response
 
 # TODO update the JSON string below
 json = "{}"

@@ -21,7 +21,7 @@ import json
 from typing import Any, ClassVar, Dict, List, Optional
 from pydantic import BaseModel, StrictStr
 from pydantic import Field
-from openapi_client.models.kernel_spec_file_help_links_inner import KernelSpecFileHelpLinksInner
+from nbserv_client.models.kernel_spec_file_help_links_inner import KernelSpecFileHelpLinksInner
 try:
     from typing import Self
 except ImportError:

@@ -1,4 +1,4 @@
-# openapi_client.ConfigApi
+# nbserv_client.ConfigApi
 
 All URIs are relative to *http://localhost*
 
@@ -19,21 +19,21 @@ Get a configuration section by name
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ConfigApi(api_client)
+    api_instance = nbserv_client.ConfigApi(api_client)
     section_name = 'section_name_example' # str | Name of config section
 
     try:
@@ -86,21 +86,21 @@ Update a configuration section by name
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.rest import ApiException
+import nbserv_client
+from nbserv_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = nbserv_client.Configuration(
     host = "http://localhost"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with nbserv_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ConfigApi(api_client)
+    api_instance = nbserv_client.ConfigApi(api_client)
     section_name = 'section_name_example' # str | Name of config section
     configuration = None # object |  (optional)
 
